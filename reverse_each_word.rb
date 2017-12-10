@@ -12,6 +12,7 @@ def reverse_each_word (phrase)
   phrase = phrase.split
   phrase.collect do |word|
     word = "#{word.reverse} "
+    puts word
     word
   end
   phrase = phrase.join
