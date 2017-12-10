@@ -11,7 +11,8 @@
 def reverse_each_word (phrase)
   phrase = phrase.split
   phrase.collect do |word|
-    "#{word.reverse} "
+    word = "#{word.reverse} "
+
   end
   phrase = phrase.join
   phrase.strip
