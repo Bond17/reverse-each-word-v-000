@@ -11,7 +11,7 @@
 def reverse_each_word (array)
   array = array.split
   array.collect do |word|
-    puts "#{word.reverse} "
+    "#{word.reverse} "
   end
   array = array.join
   array.strip
