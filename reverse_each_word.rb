@@ -1,19 +1,18 @@
-# def reverse_each_word (array)
-#   array = array.split
-#   new_array = []
-#   array.each do |word|
-#     new_array << "#{word.reverse} "
+# def reverse_each_word (phrase)
+#   phrase = phrase.split
+#   new_phrase = []
+#   phrase.each do |word|
+#     new_phrase << "#{word.reverse} "
 #   end
-#   new_array = new_array.join
-#   new_array.strip
+#   new_phrase = new_phrase.join
+#   new_phrase.strip
 # end
 
-def reverse_each_word (array)
-  array = array.split
-  puts array
-  array.collect do |word|
+def reverse_each_word (phrase)
+  phrase = phrase.split
+  phrase.collect do |word|
     "#{word.reverse} "
   end
-  array = array.join
-  array.strip
+  phrase = phrase.join
+  phrase.strip
 end
